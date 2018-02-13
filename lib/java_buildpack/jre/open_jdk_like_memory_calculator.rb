@@ -53,7 +53,7 @@ module JavaBuildpack
       #
       # @return [String] the memory calculation command
       def memory_calculation_command
-        'JAVA_OPTS="$JAVA_OPTS "'
+        'JAVA_OPTS="$JAVA_OPTS"'
       end
 
       # (see JavaBuildpack::Component::BaseComponent#release)

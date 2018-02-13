@@ -84,7 +84,7 @@ describe JavaBuildpack::Jre::OpenJDKLikeMemoryCalculator do
 
     command = component.memory_calculation_command
 
-    expect(command).to eq('JAVA_OPTS="$JAVA_OPTS "')
+    expect(command).to eq('JAVA_OPTS="$JAVA_OPTS"')
   end
 
   it 'does not throw an error when a directory ends in .jar',
